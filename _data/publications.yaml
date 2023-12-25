@@ -1,0 +1,27 @@
+papers:
+  - title: "Coffee: Boost Your Code LLMs by Fixing Bugs with Feedback"
+    authors: "Seungjun Moon<sup>‡</sup>, Yongho Song<sup>‡</sup>, Hyungjoo Chae<sup>‡</sup>, Dongjin Kang, <b><u>Taeyoon Kwon</u></b>, Kai Tzu-iunn Ong, Seung-won Hwang, Jinyoung Yeo"
+    venue: "Arxiv prerint (Under review)."
+    paper_pdf: "https://arxiv.org/abs/2311.07215"
+    selected: y
+
+  - title: "Large Language Models are Clinical Reasoners: Reasoning-Aware Diagnosis Framework with Prompt-Generated Rationales"
+    authors: "<b><u>Taeyoon Kwon</u></b><sup>‡</sup>, Kai Tzu-iunn Ong<sup>‡</sup>, Dongjin Kang, Seungjun Moon, Jeong Ryong Lee, Dosik Hwang, Yongsik Sim, Beomseok Sohn, Dongha Lee, Jinyoung Yeo"
+    venue: "AAAI'24: The 38th Annual AAAI Conference on Artificial Intelligence. 2024."
+    paper_pdf: "https://arxiv.org/abs/2312.07399"
+    selected: y
+
+  - title: "Dialogue Chain-of-Thought Distillation for Commonsense-aware Conversational Agents"
+    authors: "Hyungjoo Chae<sup>‡</sup>, Yongho Song<sup>‡</sup>, Kai Tzu-iunn Ong, <b><u>Taeyoon Kwon</u></b>, Minjin Kim, Youngjae Yu, Dongha Lee, Dongyeop Kang, Jinyoung Yeo"
+    venue: "EMNLP'23: The 2023 Conference on Empirical Methods in Natural Language Processing. 2023."
+    paper_pdf: "https://arxiv.org/abs/2310.09343"
+    selected: y
+
+  # - title: "Counterfactual Evaluation of Peer-Review Assignment Policies"
+  #   authors: "<b>Martin Saveski</b>, Steven Jecmen, Nihar B. Shah, Johan Ugander"
+  #   venue: "NeurIPS'23: Advances in Neural Information Processing Systems (Spotlight). 2023."
+  #   paper_pdf: "/assets/publications/2023_peer_review/paper.pdf"
+  #   code: "https://github.com/msaveski/counterfactual-peer-review"
+  #   selected: y
+
+ 

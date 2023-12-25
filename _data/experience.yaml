@@ -1,0 +1,43 @@
+experiences:
+
+- place: "DLI Lab. @ Yonsei"
+  time: "Sep.2023 - present"
+  title: "M.S. in Computer Science"
+  subtitle: "-"
+  category: "school"
+
+- place: "Tutoring"
+  time: "Mar.2023 - present"
+  title: "Artifical Intelligence Researcher"
+  subtitle: "-"
+  category: "work"
+
+- place: "Convei Lab. @ Yonsei"
+  time: "Oct.2022 - Sep.2023"
+  title: "Undergraduate Researcher"
+  subtitle: "-"
+  category: "school"
+
+- place: "Data Science Lab. @ HYU"
+  time: "Jun.2022 - Nov.2022"
+  title: "Research Scientist, Intern"
+  subtitle: "-"
+  category: "school"
+
+- place: "SE Lab. @ HYU"
+  time: "Aug.2021 - Jun.2022"
+  title: "Undergraduate Researcher"
+  subtitle: "-"
+  category: "school"
+
+- place: "Speechtools Ltd"
+  time: "Dec.2021 - Apr.2022"
+  title: "Undergraduate Intern"
+  subtitle: "-"
+  category: "work"
+
+- place: "Hanyang University (ERICA)"
+  time: "Mar.2017 - Feb.2023"
+  title: "B.S. in Computer Science"
+  subtitle: "-"
+  category: "school"
