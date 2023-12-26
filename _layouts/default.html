@@ -60,7 +60,16 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href={{ "/libs/icon.png" | prepend: site.baseurl }}>
   <link rel="shortcut icon" type="image/png" href={{ "/libs/icon.png" | prepend: site.baseurl }}>
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-45NLGTR0WP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'G-45NLGTR0WP');
+  </script>
 </head>
 <body>
 
@@ -140,7 +149,7 @@
   </div>
 
   <!-- Google Analytics -->
-  {% include google_analytics.html %}
+  <!-- {% include google_analytics.html %} -->
 
   <!-- do not remove -->
   <span id="62cd7b7da1aff3196fdc26b60e396df9"></span>
