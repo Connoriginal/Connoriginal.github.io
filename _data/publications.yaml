@@ -1,8 +1,20 @@
 papers:
+  - title: "Can Large Language Models be Good Emotional Supporter? Mitigating Preference Bias on Emotional Support Conversation"
+    authors: "Dongjin Kang<sup>‡</sup>, Sunghwan Kim<sup>‡</sup>, <b><u>Taeyoon Kwon</u></b>, Seungjun Moon, Hyunsouk Cho, Youngjae Yu, Dongha Lee, Jinyoung Yeo"
+    venue: "Arxiv prerint (Under review)."
+    paper_pdf: "https://arxiv.org/abs/2402.13211"
+    selected: y
+
   - title: "Coffee: Boost Your Code LLMs by Fixing Bugs with Feedback"
-    authors: "Seungjun Moon<sup>‡</sup>, Yongho Song<sup>‡</sup>, Hyungjoo Chae<sup>‡</sup>, Dongjin Kang, <b><u>Taeyoon Kwon</u></b>, Kai Tzu-iunn Ong, Seung-won Hwang, Jinyoung Yeo"
+    authors: "Seungjun Moon<sup>‡</sup>, Yongho Song<sup>‡</sup>, Hyungjoo Chae<sup>‡</sup>, <b><u>Taeyoon Kwon</u></b>, Dongjin Kang, Kai Tzu-iunn Ong, Seung-won Hwang, Jinyoung Yeo"
     venue: "Arxiv prerint (Under review)."
     paper_pdf: "https://arxiv.org/abs/2311.07215"
+    selected: y
+  
+  - title: "Multi-task Deep Learning for Joint Detection of Necrotizing Viral and Non-infectious Retinitis from Common Blood and Serology Test Data"
+    authors: "Kai Tzu-iunn Ong<sup>‡</sup>, <b><u>Taeyoon Kwon</u></b><sup>‡</sup>, Harok Jang, Min Kim, Christopher Seungkyu Lee, Suk Ho Byeon, Sung Soo Kim, Jinyoung Yeo, Eun Young Choi"
+    venue: "IOVS: Investigative Ophthalmology & Visual Science, 2024."
+    paper_pdf: "https://iovs.arvojournals.org/article.aspx?articleid=2793342"
     selected: y
 
   - title: "Large Language Models are Clinical Reasoners: Reasoning-Aware Diagnosis Framework with Prompt-Generated Rationales"
