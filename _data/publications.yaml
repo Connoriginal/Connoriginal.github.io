@@ -1,4 +1,10 @@
 papers:
+  - title: "Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models"
+    authors: "Hyungjoo Chae<sup>‡</sup>, Yeonghyeon Kim, Seungone Kim, Kai Tzu-iunn Ong, Beong-woo Kwak, Moohyeon Kim, Seonghwan Kim, <b><u>Taeyoon Kwon</u></b>, Jiwan Chung, Youngjae Yu, Jinyoung Yeo"
+    venue: "Arxiv prerint (Under review)."
+    paper_pdf: "https://arxiv.org/abs/2404.02575"
+    selected: y
+
   - title: "Can Large Language Models be Good Emotional Supporter? Mitigating Preference Bias on Emotional Support Conversation"
     authors: "Dongjin Kang<sup>‡</sup>, Sunghwan Kim<sup>‡</sup>, <b><u>Taeyoon Kwon</u></b>, Seungjun Moon, Hyunsouk Cho, Youngjae Yu, Dongha Lee, Jinyoung Yeo"
     venue: "Arxiv prerint (Under review)."
