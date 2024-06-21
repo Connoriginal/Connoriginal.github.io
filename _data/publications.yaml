@@ -1,4 +1,10 @@
 papers:
+  - title: "THEANINE: Revisiting Memory Management in Long-term Conversations with Timeline-augmented Response Generation"
+    authors: "Seo Hyun Kim<sup>‡</sup>, Kai Tzu-iunn Ong<sup>‡</sup>, <b><u>Taeyoon Kwon</u></b>, Namyoung Kim, Keummin Ka, SeongHyeon Bae, Yohan Jo, Seung-won Hwang, Dongha Lee, Jinyoung Yeo"
+    venue: "Arxiv preprint."
+    paper_pdf: "https://arxiv.org/abs/2406.10996"
+    selected: y
+
   - title: "Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models"
     authors: "Hyungjoo Chae<sup>‡</sup>, Yeonghyeon Kim, Seungone Kim, Kai Tzu-iunn Ong, Beong-woo Kwak, Moohyeon Kim, Seonghwan Kim, <b><u>Taeyoon Kwon</u></b>, Jiwan Chung, Youngjae Yu, Jinyoung Yeo"
     venue: "Arxiv preprint."
