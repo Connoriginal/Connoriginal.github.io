@@ -23,9 +23,6 @@ title: Home
       <li>AI + X : Healthcare / Code</li>
     </ul>
   </p>
-  <br>
-  <br>
-  You can find my CV <a href={{ "/assets/cv/Taeyoon_s_CV.pdf" | prepend: site.baseurl }} target="_blank">here</a>.
 </div>
 
 
@@ -37,13 +34,13 @@ title: Home
   <sup>‡</sup> indicates equal contribution.
   </p>
 
-  <!-- <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>
-  </ul> -->
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#papers-all">Papers</div></li>
+    <li><div class="button" data-ref="#papers-selected">Refereed Papers</div></li>
+  </ul>
 
   <div class="tab-content">
-    <div class="tab-pane active" id="papers-selected">
+    <div class="tab-pane" id="papers-selected">
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
       {% for paper in selected_papers %}
         <div class="paper">
@@ -55,8 +52,8 @@ title: Home
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
             {% endif %}
 
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% if paper.demo %}
+              <a class="button" href="{{ paper.demo }}" target="_blank">Demo</a>
             {% endif %}
 
             {% if paper.poster %}
@@ -80,7 +77,7 @@ title: Home
       {% endfor %}
     </div>
 
-    <div class="tab-pane" id="papers-all">
+    <div class="tab-pane active" id="papers-all">
       {% for paper in site.data.publications.papers %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
@@ -91,8 +88,8 @@ title: Home
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
             {% endif %}
 
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% if paper.demo %}
+              <a class="button" href="{{ paper.demo }}" target="_blank">Demo</a>
             {% endif %}
 
             {% if paper.poster %}
@@ -196,6 +193,7 @@ title: Home
 <!-- ========== RESUME ========== -->
 <div class="docs-section" id="resume">
   <h4>Vitæ</h4>
+  Full CV in <a href={{ "/assets/cv/Taeyoon_s_CV.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.
 
   <!-- The Timeline -->
   <ul class="timeline">
