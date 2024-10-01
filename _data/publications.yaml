@@ -9,7 +9,7 @@ papers:
   - title: "COFFEE-GYM: An Environment for Evaluating and Improving Natural Language Feedback on Erroneous Code"
     authors: "Hyungjoo Chae<sup>‡</sup>, <b><u>Taeyoon Kwon</u></b><sup>‡</sup>, Seungjun Moon<sup>‡</sup>, Yongho Song, Dongjin Kang, Kai Tzu-iunn Ong, Beong-woo Kwak, Seonghyeon Bae, Seung-won Hwang, Jinyoung Yeo"
     venue: "EMNLP'24: The 2024 Conference on Empirical Methods in Natural Language Processing. 2024"
-    paper_pdf: "https://huggingface.co/spaces/Coffee-Gym/Project-Coffee-Gym/blob/main/ACL24__Code_Edit.pdf"
+    paper_pdf: "http://arxiv.org/abs/2409.19715"
     demo: "https://huggingface.co/spaces/Coffee-Gym/Project-Coffee-Gym"
     selected: y
 
