@@ -1,0 +1,72 @@
+papers:
+  - title: "Evaluating Robustness of Reward Models for Mathematical Reasoning"
+    authors: "Sunghwan Kim<sup>‡</sup>, Dongjin Kang<sup>‡</sup>, <b><u>Taeyoon Kwon</u></b>, Hyungjoo Chae, Jungsoo Won, Dongha Lee, Jinyoung Yeo"
+    venue: "Arxiv preprint."
+    paper_pdf: "https://arxiv.org/abs/2410.01729"
+    selected: n
+
+  - title: "Large Language Models Are Self-Taught Reasoners: Enhancing LLM Applications via Tailored Problem-Solving Demonstrations"
+    authors: "Kai Tzu-iunn Ong<sup>‡</sup>, <b><u>Taeyoon Kwon</u></b>, Jinyoung Yeo"
+    venue: "Arxiv preprint."
+    paper_pdf: "https://arxiv.org/abs/2408.12315v1"
+    selected: n
+  
+  - title: "COFFEE-GYM: An Environment for Evaluating and Improving Natural Language Feedback on Erroneous Code"
+    authors: "Hyungjoo Chae<sup>‡</sup>, <b><u>Taeyoon Kwon</u></b><sup>‡</sup>, Seungjun Moon<sup>‡</sup>, Yongho Song, Dongjin Kang, Kai Tzu-iunn Ong, Beong-woo Kwak, Seonghyeon Bae, Seung-won Hwang, Jinyoung Yeo"
+    venue: "EMNLP'24: The 2024 Conference on Empirical Methods in Natural Language Processing. 2024"
+    paper_pdf: "http://arxiv.org/abs/2409.19715"
+    demo: "https://huggingface.co/spaces/Coffee-Gym/Project-Coffee-Gym"
+    selected: y
+
+  - title: "Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models"
+    authors: "Hyungjoo Chae<sup>‡</sup>, Yeonghyeon Kim, Seungone Kim, Kai Tzu-iunn Ong, Beong-woo Kwak, Moohyeon Kim, Seonghwan Kim, <b><u>Taeyoon Kwon</u></b>, Jiwan Chung, Youngjae Yu, Jinyoung Yeo"
+    venue: "EMNLP'24: The 2024 Conference on Empirical Methods in Natural Language Processing. 2024"
+    paper_pdf: "https://arxiv.org/abs/2404.02575"
+    selected: y
+
+  - title: "Can Large Language Models be Good Emotional Supporter? Mitigating Preference Bias on Emotional Support Conversation"
+    authors: "Dongjin Kang<sup>‡</sup>, Sunghwan Kim<sup>‡</sup>, <b><u>Taeyoon Kwon</u></b>, Seungjun Moon, Hyunsouk Cho, Youngjae Yu, Dongha Lee, Jinyoung Yeo"
+    venue: "<u><a style='color:#ea3800'>Best Paper Award</a></u> ACL'24: The 62nd Annual Meeting of the Association for Computational Linguistics. 2024"
+    paper_pdf: "https://arxiv.org/abs/2402.13211"
+    selected: y
+
+  - title: "THEANINE: Revisiting Memory Management in Long-term Conversations with Timeline-augmented Response Generation"
+    authors: "Seo Hyun Kim<sup>‡</sup>, Kai Tzu-iunn Ong<sup>‡</sup>, <b><u>Taeyoon Kwon</u></b>, Namyoung Kim, Keummin Ka, SeongHyeon Bae, Yohan Jo, Seung-won Hwang, Dongha Lee, Jinyoung Yeo"
+    venue: "Arxiv preprint."
+    paper_pdf: "https://arxiv.org/abs/2406.10996"
+    selected: n
+  
+  - title: "Coffee: Boost Your Code LLMs by Fixing Bugs with Feedback"
+    authors: "Seungjun Moon<sup>‡</sup>, Yongho Song<sup>‡</sup>, Hyungjoo Chae<sup>‡</sup>, <b><u>Taeyoon Kwon</u></b>, Dongjin Kang, Kai Tzu-iunn Ong, Seung-won Hwang, Jinyoung Yeo"
+    venue: "Arxiv preprint."
+    paper_pdf: "https://arxiv.org/abs/2311.07215"
+    demo: "https://kyle8581.github.io/COFFEE-DEMO/"
+    selected: n
+
+  - title: "Large Language Models are Clinical Reasoners: Reasoning-Aware Diagnosis Framework with Prompt-Generated Rationales"
+    authors: "<b><u>Taeyoon Kwon</u></b><sup>‡</sup>, Kai Tzu-iunn Ong<sup>‡</sup>, Dongjin Kang, Seungjun Moon, Jeong Ryong Lee, Dosik Hwang, Yongsik Sim, Beomseok Sohn, Dongha Lee, Jinyoung Yeo"
+    venue: "AAAI'24: The 38th Annual AAAI Conference on Artificial Intelligence. 2024."
+    paper_pdf: "https://arxiv.org/abs/2312.07399"
+    selected: y
+
+  - title: "Multi-task Deep Learning for Joint Detection of Necrotizing Viral and Non-infectious Retinitis from Common Blood and Serology Test Data"
+    authors: "Kai Tzu-iunn Ong<sup>‡</sup>, <b><u>Taeyoon Kwon</u></b><sup>‡</sup>, Harok Jang, Min Kim, Christopher Seungkyu Lee, Suk Ho Byeon, Sung Soo Kim, Jinyoung Yeo, Eun Young Choi"
+    venue: "IOVS: Investigative Ophthalmology & Visual Science, 2024."
+    paper_pdf: "https://iovs.arvojournals.org/article.aspx?articleid=2793342"
+    selected: y
+
+  - title: "Dialogue Chain-of-Thought Distillation for Commonsense-aware Conversational Agents"
+    authors: "Hyungjoo Chae<sup>‡</sup>, Yongho Song<sup>‡</sup>, Kai Tzu-iunn Ong, <b><u>Taeyoon Kwon</u></b>, Minjin Kim, Youngjae Yu, Dongha Lee, Dongyeop Kang, Jinyoung Yeo"
+    venue: "EMNLP'23: The 2023 Conference on Empirical Methods in Natural Language Processing. 2023."
+    paper_pdf: "https://arxiv.org/abs/2310.09343"
+    demo: "https://dialoguecot.web.app/"
+    selected: y
+
+  # - title: "Counterfactual Evaluation of Peer-Review Assignment Policies"
+  #   authors: "<b>Martin Saveski</b>, Steven Jecmen, Nihar B. Shah, Johan Ugander"
+  #   venue: "NeurIPS'23: Advances in Neural Information Processing Systems (Spotlight). 2023."
+  #   paper_pdf: "/assets/publications/2023_peer_review/paper.pdf"
+  #   code: "https://github.com/msaveski/counterfactual-peer-review"
+  #   selected: y
+
+ 
