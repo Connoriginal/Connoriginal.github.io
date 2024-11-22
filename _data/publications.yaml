@@ -26,7 +26,7 @@ papers:
 
   - title: "Can Large Language Models be Good Emotional Supporter? Mitigating Preference Bias on Emotional Support Conversation"
     authors: "Dongjin Kang<sup>‡</sup>, Sunghwan Kim<sup>‡</sup>, <b><u>Taeyoon Kwon</u></b>, Seungjun Moon, Hyunsouk Cho, Youngjae Yu, Dongha Lee, Jinyoung Yeo"
-    venue: "<u><a style='color:#ea3800'>Best Paper Award</a></u> ACL'24: The 62nd Annual Meeting of the Association for Computational Linguistics. 2024"
+    venue: "<u><a style='color:#ea3800'>Outstanding Paper Award</a></u> ACL'24: The 62nd Annual Meeting of the Association for Computational Linguistics. 2024"
     paper_pdf: "https://arxiv.org/abs/2402.13211"
     selected: y
 
