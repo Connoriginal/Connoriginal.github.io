@@ -5,6 +5,12 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2410.01729"
     selected: n
 
+  - title: "Towards Lifelong Dialogue Agents via Timeline-based Memory Management"
+    authors: "Kai Tzu-iunn Ong<sup>‡</sup>, Namyoung Kim<sup>‡</sup>, Minju Gwak, Hyungjoo Chae,<b><u>Taeyoon Kwon</u></b>, Yohan Jo, Seung-won Hwang, Dongha Lee, Jinyoung Yeo"
+    venue: "NACCL'25: The 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics. 2025"
+    paper_pdf: "https://arxiv.org/abs/2406.10996"
+    selected: y
+
   - title: "Large Language Models Are Self-Taught Reasoners: Enhancing LLM Applications via Tailored Problem-Solving Demonstrations"
     authors: "Kai Tzu-iunn Ong<sup>‡</sup>, <b><u>Taeyoon Kwon</u></b>, Jinyoung Yeo"
     venue: "Arxiv preprint."
@@ -30,11 +36,6 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2402.13211"
     selected: y
 
-  - title: "THEANINE: Revisiting Memory Management in Long-term Conversations with Timeline-augmented Response Generation"
-    authors: "Seo Hyun Kim<sup>‡</sup>, Kai Tzu-iunn Ong<sup>‡</sup>, <b><u>Taeyoon Kwon</u></b>, Namyoung Kim, Keummin Ka, SeongHyeon Bae, Yohan Jo, Seung-won Hwang, Dongha Lee, Jinyoung Yeo"
-    venue: "Arxiv preprint."
-    paper_pdf: "https://arxiv.org/abs/2406.10996"
-    selected: n
   
   - title: "Coffee: Boost Your Code LLMs by Fixing Bugs with Feedback"
     authors: "Seungjun Moon<sup>‡</sup>, Yongho Song<sup>‡</sup>, Hyungjoo Chae<sup>‡</sup>, <b><u>Taeyoon Kwon</u></b>, Dongjin Kang, Kai Tzu-iunn Ong, Seung-won Hwang, Jinyoung Yeo"
