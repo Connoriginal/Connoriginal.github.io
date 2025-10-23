@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
-    <style>
-        .hidden {
-            display: none;
-        }
-
-    </style>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="https://kit.fontawesome.com/f8ddf9854a.js" crossorigin="anonymous"></script>
+  <title>MEMENTO: Personalized Embodied Agent Evaluation Framework</title>
   <meta charset="utf-8">
-  <meta name="description"
-        content="Embodied Agents Meet Personalization: Exploring Memory Utilization for Personalized Assistance">
+  <meta name="description" content="Embodied Agents Meet Personalization: Investigating Challenges and Solutions Through the Lens of Memory Utilization">
   <meta name="keywords" content="Embodied Agent, Personalization, Memory, Episodic Memory, Rearrangement, Framework">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Embodied Agents Meet Personalization: Exploring Memory Utilization for Personalized Assistance</title>
+  
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://kit.fontawesome.com/f8ddf9854a.js" crossorigin="anonymous"></script>
 
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
@@ -60,12 +59,12 @@
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title is-bold">
-            <span class="opencodeinterpreter" style="vertical-align: middle">Embodied Agents Meet Personalization: Exploring Memory Utilization for Personalized Assistance</span>
+            <span class="opencodeinterpreter" style="vertical-align: middle">Embodied Agents Meet Personalization: Investigating Challenges and Solutions Through the Lens of Memory Utilization</span>
             </h1>
           <br>
           <div class="author-list">
             <p class="has-text-centered">
-              Taeyoon Kwon<sup>∗1</sup> Dongwook Choi<sup>∗1</sup> Sunghwan Kim<sup>1</sup> Hyojun Kim<sup>1</sup><br>
+              Taeyoon Kwon<sup>∗1</sup> Dongwook Choi<sup>∗1</sup> Hyojun Kim<sup>1</sup> Sunghwan Kim<sup>1</sup><br>
               Seungjun Moon<sup>1</sup> Beong-woo Kwak<sup>1</sup> Kuan-Hao Huang<sup>2</sup> Jinyoung Yeo<sup>1</sup>
             </p>
             <br/>
@@ -74,37 +73,19 @@
             </p>
           </div>
           <br>
-          <!-- <h3>
-            Note that this project page is fully anonymized. Some links might not be available due to anonymization.
-          </h3> -->
           <br>
 
-          <!-- <div class="column has-text-centered" style="overflow-x: auto;"> -->
           <div class="column has-text-centered">
             <div class="publication-links" style="justify-content: center;">
-              <!-- PDF Link. -->
               <span class="link-block">
-                <!-- @PAN TODO: change links -->
                 <a href="https://arxiv.org/abs/2505.16348"
                    class="external-link button is-normal is-rounded is-dark" target="_blank">
-                  <!-- <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                  </span> -->
                   <span class="icon">
                     <p style="font-size:18px">📝</p>
                   </span>
                   <span>Paper</span>
                 </a>
               </span>
-              <!-- <span class="link-block">
-                <a href="https://huggingface.co/datasets/RewardMATH/RewardMATH"
-                   class="external-link button is-normal is-rounded is-dark" target="_blank">
-                  <span class="icon">
-                    <p style="font-size:18px">🤗</p>
-                  </span>
-                  <span>Datasets</span>
-                </a>
-              </span> -->
               <span class="link-block">
                 <a href="https://github.com/Connoriginal/MEMENTO"
                    class="external-link button is-normal is-rounded is-dark" target="_blank">
@@ -130,31 +111,46 @@
     width: 80%;
   }
 </style>
-<section>
-  <div class="container is-max-desktop">
+
+
+<section class="section">
+  <div class="container">
     <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
+    <div class="columns is-centered has-text-centered" style="flex-direction: column; align-items: center;">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Why Personalized Embodied Agents?</h2>
+        <h2 class="title is-3">Motivation: Why Personalized Embodied Agents?</h2>
         <div class="content has-text-justified">
           <div class="content has-text-centered">
-            <img src="static/images/motivation_figure.png" alt="Motivation" class="center" style="width:100%">
+            <img src="static/images/motivation_figure.png" alt="Motivation for personalized embodied agents" width="100%"/>
           </div>
           <p>
             Embodied agents empowered by large language models (LLMs) have recently demonstrated remarkable
-            success in executing object rearrangement tasks in household environments. The primary objective of embodied agents is to provide assistance to users while interacting with the physical world. But do such tasks truly reflect the challenges in providing meaningful assistance to the users?
+            success in executing object rearrangement tasks in household environments. The primary objective of embodied agents is to provide assistance to users while interacting with the physical world. 
+            <b>But do such tasks truly reflect the challenges in providing meaningful assistance to the users?</b>
           </p>
           <p>
-            To provide personalized assistance, embodied agents must understand the unique semantics that users assign to the physical world (e.g., <i>favorite cup</i>, <i>breakfast routine</i>) by leveraging prior interaction history to interpret dynamic, real-world instructions. 
-            In this work, we propose <strong><span class="dnerf">Memento</span></strong>, a framework to evaluate the memory utilization of embodied agents in providing personalized assistance.
-          </p>
-          <p>
-            Through <strong><span class="dnerf">Memento</span></strong>, we evaluated embodied agents powered by various LLMs and found that even state-of-the-art models struggle with utilizing episodic memory containing personalized knowledge. GPT-4o showed a 30.5% performance drop when required to reference multiple memories, particularly in tasks involving user patterns. The agents were also found to be easily distracted by irrelevant memories. These findings provide valuable insights for developing personalized embodied agents in the future.
+            To provide personalized assistance, embodied agents must understand the unique semantics that users assign to the physical world (e.g., <i>favorite cup</i>, <i>breakfast routine</i>) by leveraging prior interaction histories to interpret dynamic, real-world instructions. 
+            Therefore, understanding <b>embodied agents' memory utilization capabilities</b> is crucial for developing <b>personalized embodied agents</b>.
           </p>
 
+
+        </div>
+        <h2 class="title is-3">Research Overview: Investigating Challenges and Solutions</h2>
+        <div class="content has-text-justified">
+          <p>
+            We construct <strong><span class="dnerf">Memento</span></strong>, an end-to-end two-stage personalized embodied agent evaluation framework comprising both single-memory and joint-memory tasks to evaluate task performance and quantify how memory utilization affects performance on personalized assistance tasks.
           </p>
+          <p>
+            <strong>Research Questions:</strong> We address the following three key questions:
+          </p>
+          <ul>
+            <li><strong>RQ1:</strong> Can current LLM-powered embodied agents effectively utilize memory to perform personalized assistance tasks?</li>
+            <li><strong>RQ2:</strong> What are the key factors that negatively affect embodied agents' memory utilization capabilities?</li>
+            <li><strong>RQ3:</strong> How can we design memory architectures to better support personalized assistance tasks?</li>
+          </ul>
         </div>
       </div>
+      
     </div>
     <!--/ Abstract. -->
   </div>
@@ -162,41 +158,12 @@
 
 <div style="margin-bottom: 4rem;"></div>
 
-<section class="hero is-light is-small">
-  <div class="hero-body has-text-centered">
-  <h1 class="title is-1 mmmu">
-    <span class="mmmu" style="vertical-align: middle">Preliminaries</span>
-  </h1>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <div class="columns is-centered has-text-centered">
-      <!-- <div class="column is-full-width has-text-centered"> -->
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Rearrangement Tasks for LLM-Powered Embodied Agents</h2>
-        <div class="content has-text-justified">
-          <p>
-            The object rearrangement task for LLM-powered embodied agents involves moving objects to their correct target locations in a physical environment based on natural language instructions. 
-            At the beginning of each episode, the agent receives an instruction such as <i>"Place the mug on the table and the book on the shelf."</i> It must interpret this instruction and internally derive the intended goal — identifying which objects need to be moved and where they should be placed. Using this goal, the agent then plans and executes a sequence of actions to manipulate the environment accordingly.
-            During execution, the agent incrementally receives text-based observations of nearby objects and decides on its next action by reasoning over the history of past observations and actions. The overall objective is to complete the rearrangement so that the final environment configuration matches the instruction-defined goal.
-          </p>
-          <p>
-            In this work, we focus on the partial observability of the task, meaning the agent can only perceive a limited view of its surroundings at any given time.
-          </p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
 
 
 <section class="hero is-light is-small">
   <div class="hero-body has-text-centered">
   <h1 class="title is-1 mmmu">
-    <span class="mmmu" style="vertical-align: middle">Designing <span class="dnerf">Memento</span></span>
+    <span class="mmmu" style="vertical-align: middle"><span class="dnerf">Memento</span>: Personalized Embodied Agent Evaluation Framework</span>
   </h1>
   </div>
 </section>
@@ -204,136 +171,119 @@
             
 <section class="section">
   <div class="container">
-    <div class="columns is-centered has-text-centered">
-      <!-- <div class="column is-full-width has-text-centered"> -->
+    <div class="columns is-centered has-text-centered" style="flex-direction: column; align-items: center;">
       <div class="column is-four-fifths">
-        <!-- <h2 class="title is-3">Designing <span class="dnerf">Memento</span></h2> -->
         <div class="content has-text-centered">
-          <img src="static/images/framework.png" alt="Motivation" class="center" style="width:80%">
-          <p> Overview of <span class="dnerf">Memento</span>.</p>
+          <img src="static/images/memento.png" alt="Memento framework overview" class="center" style="width:90%">
+          <p> Overview of <span class="dnerf">Memento</span>. </p>
         </div>
         <h2 class="title is-3">Two-stage Evaluation Process</h2>
         <div class="content has-text-justified">
           <p>
-            We divide the evaluation process into two stages: (1) Memory Acquisition Stage and (2) Memory Utilization Stage. 
-            In the Memory Acquisition Stage, agents perform conventional object rearrangement tasks with instructions that contain personalized knowledge, while accumulating interaction history. 
-            In the Memory Utilization Stage, agents are given modified versions of the same tasks, which require them to recall and apply the personalized knowledge acquired in the previous stage in order to succeed.
+            <strong>(1) Memory Acquisition Stage:</strong> Agents perform conventional object rearrangement tasks with instructions that contain sufficient personalized knowledge. These episodes are defined as <i>ϵ<sub>acq</sub> = (S, I<sub>acq</sub>, g)</i> where <i>ϕ(I<sub>acq</sub>) → g</i>, meaning agents can directly infer the goal from instructions. During this stage, agents establish a reference performance baseline while accumulating episodic memory <i>h<sub>acq</sub></i> from their interactions.
+          </p>
+          <p>
+            <strong>(2) Memory Utilization Stage:</strong> Agents perform identical tasks but use underspecified instructions <i>ϵ<sub>util</sub> = (S, I<sub>util</sub>, g)</i>. These tasks can only be completed when agents recall and apply relevant personalized knowledge, requiring the extended grounding function <i>ϕ(I<sub>util</sub>, h<sub>acq</sub>) → g</i>.
+          </p>
+          <p>
+            Through this evaluation process, we are able to quantify the agent's memory utilization capability by comparing performance between the two stages.
           </p>
         </div>
 
-        <br/>
-        <h2 class="title is-3">Personalized Knowledge Categorization</h2>
+        <h2 class="title is-3">Task Types</h2>
         <div class="content has-text-justified">
           <p>
-            We categorize personalized knowledge into two types — Object Semantics and User Patterns — to isolate a distinct reasoning challenge that the agent must address using episodic memory. 
-            For Object Semantics, we include subcategories such as ownership (e.g., my cup), preference (e.g., my favorite running gear), past history (e.g., a graduation gift from my grandma), and grouped references (e.g., my childhood toy collections), all referring to objects that carry personal meaning for the user. 
-            For User Patterns, we consider personal routines (e.g., my remote work setup) and arrangement preferences (e.g., my cozy dinner atmosphere), which reflect recurring sequences of actions that the user consistently performs in specific contexts. 
-            This category assesses the agent's ability to reconstruct the complete goal <i>g</i> by leveraging previously observed behavioral patterns across multiple objects and locations.
+            <strong>(1) Single-memory tasks:</strong> Require information from one episodic memory. These tasks test the agent's ability to retrieve and apply knowledge from a single previous interaction.
+          </p>
+          <p>
+            <strong>(2) Joint-memory tasks:</strong> Necessitate synthesis from two distinct memories, formulated as <i>ϵ<sub>util</sub><sup>joint</sup> = (S, I<sub>util</sub><sup>joint</sup>, [g<sup>i</sup>;g<sup>j</sup>])</i> where <i>i, j</i> denote corresponding reference episodes from the acquisition stage. These tasks evaluate the agent's capability to integrate information from multiple past experiences.
+          </p>
+          <p>
+            We conduct experiments without memory usage to validate our framework design, confirming that agents struggle significantly with underspecified instructions when memory is not available.
+          </p>
+        </div>
+        
+        <h2 class="title is-3">Personalized Knowledge Categories</h2>
+        <div class="content has-text-justified">
+          <p>
+            We categorize personalized knowledge into two types to evaluate different reasoning challenges:
+          </p>
+          <p>
+            <strong>(1) Object Semantics:</strong> Tests agents' ability to identify objects based on personal meaning (e.g., <i>my cup</i>, <i>my favorite running gear</i>).
+          </p>
+          <p>
+            <strong>(2) User Patterns:</strong> Assesses agents' capacity to reconstruct goals using behavioral patterns (e.g., <i>my remote work setup</i>, <i>my cozy dinner atmosphere</i>).
           </p>
         </div>
 
-        <br/>
-        <h2 class="title is-3">Evaluation metric</h2>
-        <div class="content has-text-justified">
-          <p>
-            We use two main metrics: Percent Complete (PC) for the proportion of goal completion, and Success Rate (SR) for full task completion. 
-            To evaluate memory utilization, we also report performance drops between acquisition and utilization stages as ΔPC and ΔSR. 
-            We also measure Simulation Steps, representing the number of steps taken to complete a task, and Planning Cycles, which reflect the number of LLM inference calls during execution. 
-            For joint-memory tasks, ΔPC and ΔSR are computed relative to the average performance of the corresponding acquisition-stage episodes.
-            <!-- Note that for joint-memory tasks, these differences are computed relative to the average performance of the corresponding acquisition-stage episodes. -->
-          </p>
-        </div>
       </div>
     </div>
-
-    </div>
-
-
   </div>
 </section>
+
+        
+
+
 
 <section class="hero is-light is-small">
   <div class="hero-body has-text-centered">
   <h1 class="title is-1 mmmu">
-    <span class="mmmu" style="vertical-align: middle">Evaluating Personalized Knowledge Utilization in Episodic Memory</span>
+    <span class="mmmu" style="vertical-align: middle">(RQ1) Evaluating Memory Utilization Across Embodied Agents</span>
   </h1>
   </div>
 </section>
+
+
 <section class="section">
   <div class="container">
     <div class="columns is-centered has-text-centered" style="flex-direction: column; align-items: center;">
-      <!-- <div class="column is-full-width has-text-centered"> -->
-      <h2 class="title is-3">Main Results</h2>
+      <h2 class="title is-3">LLM-powered Embodied Agents Struggle with Understanding Personalized Knowledge</h2>
       <div class="column is-four-fifths">
           <br/>
           <div class="content has-text-centered">
-            <img src="static/images/main_table.png" alt="Results of generative RMs"  width="60%"/>
+            <img src="static/images/main_table.png" alt="Main results table showing model performance" width="70%"/>
             <p>
               Model performance across memory acquisition and utilization stage in <span class="dnerf">Memento</span>.
             </p>
           </div>
         <div class="content has-text-justified">
           <p>
-            LLM-powered embodied agents struggle to consistently utilize personalized knowledge. Even GPT-4o shows a 30.5% drop in success rate for joint-memory tasks, and all models experience over 20% drop compared to the memory acquisition stage. 
-            This highlights the challenge of referencing and applying personalized knowledge across multiple steps. 
-            The increased planning cycles and simulation steps suggest misinterpretation of instructions, leading to inefficient exploration. 
-            Furthermore, the larger gap between percent complete and success rate indicates that agents often overlook critical information needed for successful task completion.
+            LLM-powered embodied agents struggle to utilize personalized knowledge effectively. Even GPT-4o shows a 30.5% drop in success rate for joint-memory tasks, with all models experiencing over 20% performance decline. The increased planning cycles and simulation steps indicate misinterpretation of instructions and inefficient exploration.
           </p>
         </div>
       </div>
       
       <br/>
-      <h2 class="title is-3">Personalized Knowledge Type Based Analysis</h2>
+      <h2 class="title is-3">Current Embodied Agents Can Effectively Recall Object Semantics But Struggle to Comprehend User Patterns</h2>
       <div class="column is-four-fifths">
         <br/>
         <div class="content has-text-centered">
-          <img src="static/images/type_based_result.png" alt="Results of classifier-based RMs and PRMs"  width="60%"/>
+            <img src="static/images/knowledge_type_result.png" alt="Personalized knowledge type analysis results" width="60%"/>
           <p>
             The results of personalized knowledge type based analysis (single-memory).
           </p>
         </div>
         <div class="content has-text-justified">
           <p>
-            We compare success rates between the memory acquisition stage and the single-memory task to analyze performance gaps across personalized knowledge types. LLMs perform relatively well on object semantics, showing minimal drop, but struggle significantly with user patterns, which require reasoning over action sequences. This suggests that while LLMs can recall relevant objects, they have difficulty understanding and integrating temporal behavior patterns.
-          </p>
-        </div>
-      </div>
-      
-      <br/>
-      <h2 class="title is-3">Top-k Retrieval Based Analysis</h2>
-      <div class="column is-four-fifths">
-        <br/>
-        <div class="content has-text-centered">
-          <img src="static/images/topk.png" alt="Results of classifier-based RMs and PRMs"  width="90%"/>
-          <p>
-            The results of top-k retrieval based analysis (single-memory).
-          </p>
-        </div>
-        <div class="content has-text-justified">
-          <p>
-            As the number of retrieved memories <i>k</i> increases, all models show consistent performance degradation across both task types. This highlights the difficulty of identifying relevant information from a larger memory set. The drop is especially severe in user pattern tasks, indicating their sensitivity to noise when reasoning over multi-step, implicit personalized knowledge.
+            Agents perform well on object semantics tasks but struggle significantly with user patterns, indicating limitations in understanding sequential behavioral information.
           </p>
         </div>
       </div>
 
       <br/>
-      <h2 class="title is-3">Case Study</h2>
+      <h2 class="title is-3">Parametric Commonsense Knowledge over Non-parametric Personalized Knowledge</h2>
       <div class="column is-four-fifths">
         <br/>
         <div class="content has-text-centered">
-          <img src="static/images/case_study.png" alt="Results of classifier-based RMs and PRMs"  width="90%"/>
+              <img src="static/images/case_study.png" alt="Case study analysis of agent behavior" width="90%"/>
           <p>
             The case study results of <span class="dnerf">Memento</span>.
           </p>
         </div>
         <div class="content has-text-justified">
-          <p>
-            To analyze how LLM-powered embodied agents leverage personalized knowledge from episodic memory during planning, we conduct qualitative case studies on both successes and failures. In particular, analysis of the frontier model GPT-4o reveals two key recurring failure patterns:
-            <ul>
-              <li>Missed personalization cues: Agents often misinterpret user-specific references as generic or proper nouns, failing to capture user intent.</li>
-              <li>Commonsense over personalization: Even when relevant memory exists, agents tend to rely on commonsense reasoning rather than drawing from episodic memory, leading to incorrect or suboptimal behaviors.</li>
-            </ul>
-          </p>
+            <p>
+              Agents tend to rely on commonsense knowledge rather than personalized memory, leading to inconsistent performance when commonsense doesn't align with user preferences.
+            </p>
         </div>
       </div>
 
@@ -343,20 +293,124 @@
   </div>
 </section>
 
-
-
-<!-- @PAN TODO: bibtex -->
-<!-- <section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title is-3 has-text-centered">BibTeX</h2>
-    <pre style="white-space: pre-wrap; word-wrap: break-word;"><code>@article{Anonymized,
-title={Embodied Agents Meet Personalization: Exploring Memory Utilization for Personalized Assistance},
-author={Anonymized},
-journal={Anonymized},
-year={2025}
-}</code></pre>
+<section class="hero is-light is-small">
+  <div class="hero-body has-text-centered">
+  <h1 class="title is-1 mmmu">
+    <span class="mmmu" style="vertical-align: middle">(RQ2) Scneario-based Analysis For Memory Utilization Bottlenecks</span>
+  </h1>
   </div>
-</section> -->
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered" style="flex-direction: column; align-items: center;">
+        <br/>
+        <h2 class="title is-3">Information Overload Degrades Memory Utilization Performance</h2>
+        <div class="column is-four-fifths">
+          <br/>
+          <div class="content has-text-centered">
+            <img src="static/images/topk.png" alt="Results of classifier-based RMs and PRMs"  width="90%"/>
+            <p>
+              The results of top-k retrieval based analysis (single-memory).
+            </p>
+          </div>
+          <div class="content has-text-justified">
+              <p>
+                As the number of retrieved memories increases, performance degrades across all models, indicating that agents struggle with information overload and increasingly rely on commonsense knowledge rather than personalized memories.
+              </p>
+          </div>
+        </div>
+
+        <br/>
+        <h2 class="title is-3">Agents Fail to Coordinate Multiple Memories</h2>
+        <div class="column is-four-fifths">
+          <br/>
+          <div class="content has-text-centered">
+            <img src="static/images/joint_type_analysis.png" alt="Results of classifier-based RMs and PRMs"  width="70%"/>
+            <p>
+              The results of top-k retrieval based analysis (single-memory).
+            </p>
+          </div>
+          <div class="content has-text-justified">
+               <p>
+                 Joint-memory tasks show significantly larger performance drops than single-memory tasks, with GPT-4o declining by 30.5%. Agents struggle to coordinate multiple memories, highlighting the need for improved memory architectures.
+               </p>
+          </div>
+        </div>
+
+
+    </div>
+  </div>
+  </section>
+
+
+
+  <section class="hero is-light is-small">
+    <div class="hero-body has-text-centered">
+    <h1 class="title is-1 mmmu">
+      <span class="mmmu" style="vertical-align: middle">(RQ3) Exploring Memory Design for Personalized Embodied Agents</span>
+    </h1>
+    </div>
+  </section>
+  
+  
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered has-text-centered" style="flex-direction: column; align-items: center;">
+          <br/>
+          <h2 class="title is-3">User Profile Memory: A Hierarchical Knowledge Graph Approach</h2>
+          <div class="column is-four-fifths">
+            <div class="content has-text-justified">
+              <p>
+                Building upon our finding that episodic memory is essential, we devise a hierarchical knowledge graph-based <i>user profile memory</i> module that manages personalized knowledge independently to provide cleaner, more accessible information to the agent.
+              </p>
+            </div>
+            <br/>
+            <div class="content has-text-centered">
+              <img src="static/images/User_Profile_Memory.png" alt="User Profile Memory Structure" width="70%"/>
+              <p>
+                Illustration of user profile memory structure.
+              </p>
+            </div>
+            <div class="content has-text-justified">
+              <p>
+                <strong>Design Challenge:</strong> Organizing knowledge relationships effectively is crucial. Sequential knowledge like user patterns requires sophisticated memory structure to prevent information loss or failing to adapt to evolving knowledge.
+              </p>
+              <p>
+                <strong>Solution:</strong> We construct personalized knowledge as a hierarchical knowledge graph with three levels:
+              </p>
+              <ul>
+                <li><strong>Top level:</strong> Users</li>
+                <li><strong>Middle level:</strong> Knowledge types (object semantics and user patterns)</li>
+                <li><strong>Bottom level:</strong> Specific elements (objects, patterns, locations)</li>
+              </ul>
+              <p>
+                The graph connects these levels using hierarchical edges for structural relationships and temporal edges for sequential ordering within user patterns, enabling systematic representation and easy updates of personalized knowledge.
+              </p>
+            </div>
+          </div>
+
+          <br/>
+          <h2 class="title is-3">Performance Results</h2>
+          <div class="column is-four-fifths">
+            <div class="content has-text-centered">
+              <img src="static/images/profile_memory_result.png" alt="User Profile Memory Performance" width="90%"/>
+              <p>
+                Agent performance with user profile memory across single- and joint-memory tasks.
+              </p>
+            </div>
+            <div class="content has-text-justified">
+              <p>
+                <strong>Key Finding:</strong> User profile memory significantly enhances embodied agents' memory utilization capability. Agents achieve substantial performance improvements across all models for both single-memory and joint-memory tasks, with especially notable gains on user pattern tasks where sequential structure previously posed challenges.
+              </p>
+            </div>
+          </div>
+  
+  
+      </div>
+    </div>
+    </section>
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
@@ -1708,157 +1762,14 @@ function sortTable(table, column, type, asc) {
 
   td:hover {background-color: #ffffff;}
   
-  /* 去掉第二行和第三行之间的横线 */
-  tr:nth-child(1) td {
-      border-bottom: none;
-  }
-  tr:nth-child(2) td {
-      border-bottom: none;
-  }
-  tr:nth-child(3) td {
-      border-bottom: none;
-  }
-  tr:nth-child(4) td {
-      border-bottom: none;
-  }
   .dashed-border {
-      border-top: 2px dashed #ccc; /* 调整间隔宽度和颜色 */
-      /* border-image: linear-gradient(to right, #ccc 25%, transparent 25%) 1 1; */
-    }
+      border-top: 2px dashed #ccc;
+  }
   .centered-span {
-        display: flex;
-        align-items: center;
-        justify-content: center; /* 水平居中 */
-        height: 100%; /* 让 span 高度充满单元格 */
-    }
-  tr:nth-child(7) td {
-      border-bottom: none;
-  }
-  tr:nth-child(8) td {
-      border-bottom: none;
-  }
-  tr:nth-child(9) td {
-      border-bottom: none;
-  }
-  tr:nth-child(10) td {
-      border-bottom: none;
-  }
-  tr:nth-child(11) td {
-      border-bottom: none;
-  }
-  tr:nth-child(12) td {
-      border-bottom: none;
-  }
-  tr:nth-child(13) td {
-      border-bottom: none;
-  }
-  tr:nth-child(14) td {
-      border-bottom: none;
-  }
-  tr:nth-child(15) td {
-      border-bottom: none;
-  }
-  tr:nth-child(16) td {
-      border-bottom: none;
-  }
-  tr:nth-child(17) td {
-      border-bottom: none;
-  }
-  tr:nth-child(18) td {
-      border-bottom: none;
-  }
-  tr:nth-child(19) td {
-      border-bottom: none;
-  }
-  tr:nth-child(20) td {
-      border-bottom: none;
-  }
-  tr:nth-child(21) td {
-      border-bottom: none;
-  }
-  tr:nth-child(22) td {
-      border-bottom: none;
-  }
-  tr:nth-child(23) td {
-      border-bottom: none;
-  }
-  tr:nth-child(24) td {
-      border-bottom: none;
-  }
-  tr:nth-child(25) td {
-      border-bottom: none;
-  }
-  tr:nth-child(26) td {
-      border-bottom: none;
-  }
-  tr:nth-child(29) td {
-      border-bottom: none;
-  }
-  tr:nth-child(30) td {
-      border-bottom: none;
-  }
-  tr:nth-child(31) td {
-      border-bottom: none;
-  }
-  tr:nth-child(32) td {
-      border-bottom: none;
-  }
-  tr:nth-child(33) td {
-      border-bottom: none;
-  }
-  tr:nth-child(36) td {
-      border-bottom: none;
-  }
-  tr:nth-child(37) td {
-      border-bottom: none;
-  }
-  tr:nth-child(38) td {
-      border-bottom: none;
-  }
-  tr:nth-child(39) td {
-      border-bottom: none;
-  }
-  tr:nth-child(40) td {
-      border-bottom: none;
-  }
-  tr:nth-child(41) td {
-      border-bottom: none;
-  }
-  tr:nth-child(42) td {
-      border-bottom: none;
-  }
-  tr:nth-child(43) td {
-      border-bottom: none;
-  }
-  tr:nth-child(44) td {
-      border-bottom: none;
-  }
-  tr:nth-child(45) td {
-      border-bottom: none;
-  }
-  tr:nth-child(46) td {
-      border-bottom: none;
-  }
-  tr:nth-child(47) td {
-      border-bottom: none;
-  }
-  tr:nth-child(48) td {
-      border-bottom: none;
-  }
-  tr:nth-child(49) td {
-      border-bottom: none;
-  }
-  tr:nth-child(50) td {
-      border-bottom: none;
-  }
-  tr:nth-child(53) td {
-      border-bottom: none;
-  }
-  tr:nth-child(54) td {
-      border-bottom: none;
-  }
-  tr:nth-child(55) td {
-      border-bottom: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
   }
 </style>
 
