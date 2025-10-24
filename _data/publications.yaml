@@ -1,6 +1,6 @@
 papers:
-  - title: "Embodied Agents Meet Personalization: Exploring Memory Utilization for Personalized Assistance"
-    authors: "<b><u>Taeyoon Kwon</u></b><sup>‡</sup>, Dongwook Choi<sup>‡</sup>, Sunghwan Kim, Hyojun Kim, Seungjun Moon, Beong-woo Kwak, Kuan-Hao Huang, Jinyoung Yeo"
+  - title: "Embodied Agents Meet Personalization: Investigating Challenges and Solutions Through the Lens of Memory Utilization"
+    authors: "<b><u>Taeyoon Kwon</u></b><sup>‡</sup>, Dongwook Choi<sup>‡</sup>, Hyojun Kim, Sunghwan Kim, Seungjun Moon, Beong-woo Kwak, Kuan-Hao Huang, Jinyoung Yeo"
     venue: "Arxiv preprint."
     paper_pdf: "https://arxiv.org/abs/2505.16348"
     selected: n
@@ -20,7 +20,6 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2508.08774"
     selected: y
     year: 2025
-
 
 
   - title: "Rethinking Reward Model Evaluation Through the Lens of Reward Overoptimization"
