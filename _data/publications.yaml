@@ -1,11 +1,11 @@
 papers:
   - title: "Embodied Agents Meet Personalization: Investigating Challenges and Solutions Through the Lens of Memory Utilization"
     authors: "<b><u>Taeyoon Kwon</u></b><sup>‡</sup>, Dongwook Choi<sup>‡</sup>, Hyojun Kim, Sunghwan Kim, Seungjun Moon, Beong-woo Kwak, Kuan-Hao Huang, Jinyoung Yeo"
-    venue: "Arxiv preprint."
+    venue: "ICLR 2026"
     paper_pdf: "https://arxiv.org/abs/2505.16348"
-    selected: n
+    selected: y
     website: "https://connoriginal.github.io/MEMENTO/"
-    year: 2025
+    year: 2026
 
   - title: "Web-Shepherd: Advancing PRMs for Reinforcing Web Agents"
     authors: "Hyungjoo Chae<sup>‡</sup>, Sunghwan Kim<sup>‡</sup>, Junhee Cho<sup>‡</sup>, Seungone Kim, Seungjun Moon, Gyeom Hwangbo, Dongha Lim, Minjin Kim, Yeonjun Hwang, Minju Gwak, Dongwook Choi, Minseok Kang, Gwanhoon Im, ByeongUng Cho, Hyojun Kim, Jun Hee Han, <b><u>Taeyoon Kwon</u></b>, Minju Kim, Beong-woo Kwak, Dongjin Kang, Jinyoung Yeo"
