@@ -1,5 +1,12 @@
 papers:
 
+  - title: "Towards Direct Evaluation of Harness Optimizers via Priority Ranking"
+    authors: "Kai Tzu-iunn Ong<sup>‡</sup>, Minseok Kang<sup>‡</sup>, Dongwook Choi<sup>‡</sup>, Junhee Cho, Seungju Kim, Seungwon Lim, Geunha Jang, Minwoo Oh, Bogyung Jeong, Sunghwan Kim, <b><u>Taeyoon Kwon</u></b>, Jinyoung Yeo"
+    venue: "Arxiv preprint"
+    paper_pdf: "https://arxiv.org/abs/2605.22505"
+    selected: n
+    year: 2026
+
   - title: "EMBGUARD: Constructing Hazard-Aware Guardrails for Safe Planning in Embodied Agents"
     authors: "Dongwook Choi<sup>‡</sup>, <b><u>Taeyoon Kwon</u></b><sup>‡</sup>, Bogyung Jeong, Minju Kim, Yeonjun Hwang, Hyojun Kim, Byungchul Kim, Young Kyun Jang, Jinyoung Yeo"
     venue: "ICML 2026"
