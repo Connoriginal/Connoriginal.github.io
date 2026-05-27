@@ -1,7 +1,12 @@
 experiences:
+- place: "FLAIR Lab. @ Texas A&M"
+  time: "Aug.2026 - present"
+  title: "Ph.D. in CSE"
+  subtitle: "Advisor: Kuan-Hao Huang"
+  category: "school"
 
 - place: "LangAGI Lab. @ Yonsei"
-  time: "Sep.2023 - present"
+  time: "Sep.2023 - Feb.2026"
   title: "M.S. in AI"
   subtitle: "Advisor: Jinyoung Yeo"
   category: "school"

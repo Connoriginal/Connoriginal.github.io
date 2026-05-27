@@ -1,4 +1,26 @@
 papers:
+
+  - title: "EMBGUARD: Constructing Hazard-Aware Guardrails for Safe Planning in Embodied Agents"
+    authors: "Dongwook Choi<sup>‡</sup>, <b><u>Taeyoon Kwon</u></b><sup>‡</sup>, Bogyung Jeong, Minju Kim, Yeonjun Hwang, Hyojun Kim, Byungchul Kim, Young Kyun Jang, Jinyoung Yeo"
+    venue: "ICML 2026"
+    # paper_pdf: "https://arxiv.org/abs/2604.11523"
+    selected: y
+    year: 2026
+
+  - title: "On Training Large Language Models for Long-Horizon Tasks: An Empirical Study of Horizon Length"
+    authors: "Sunghwan Kim<sup>‡</sup>, Junhee Cho, Beong-woo Kwak, <b><u>Taeyoon Kwon</u></b>, Liang Wang, Nan Yang, Xingxing Zhang, Furu Wei, Jinyoung Yeo"
+    venue: "ICML 2026"
+    paper_pdf: "https://arxiv.org/abs/2605.02572"
+    selected: y
+    year: 2026
+
+  - title: "PAC-BENCH: Evaluating Multi-Agent Collaboration under Privacy Constraints"
+    authors: "Minjun Park<sup>‡</sup>, Donghyun Kim<sup>‡</sup>, Hyeonjong Ju<sup>‡</sup>, Seungwon Lim, Dongwook Choi, <b><u>Taeyoon Kwon</u></b>, Minju Kim, Jinyoung Yeo"
+    venue: "ACL 2026 (Findings)"
+    paper_pdf: "https://arxiv.org/abs/2604.11523"
+    selected: y
+    year: 2026
+
   - title: "Embodied Agents Meet Personalization: Investigating Challenges and Solutions Through the Lens of Memory Utilization"
     authors: "<b><u>Taeyoon Kwon</u></b><sup>‡</sup>, Dongwook Choi<sup>‡</sup>, Hyojun Kim, Sunghwan Kim, Seungjun Moon, Beong-woo Kwak, Kuan-Hao Huang, Jinyoung Yeo"
     venue: "ICLR 2026"
