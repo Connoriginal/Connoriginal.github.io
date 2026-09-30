@@ -3,3 +3,6 @@ test.ipynb
 CLAUDE.md
 CLAUDE.local.md
 .claude/
+
+# Jekyll build output
+_site/
